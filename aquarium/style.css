@@ -1,0 +1,77 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background-color: #89c4f4;
+}
+
+.container{
+    width:1200px;
+    margin: auto;
+}
+
+/*レイアウト*/
+
+.main{
+    width: 800px;
+    overflow: hidden;
+    float: left;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.col-6{
+
+}
+
+.col-3{
+
+}
+
+/* 画像・見出し・パラグラフ*/
+
+#key-block img{
+    float: left;
+    margin: auto;
+}
+
+
+/*サイドバー*/
+
+#side-block{
+
+}
+
+/*ナビ*/
+
+nav{
+    overflow: hidden;
+    background: #003171;
+    margin-bottom: 45px;
+    
+}
+
+nav li{
+float: left;
+    list-style-type: none;
+}
+
+nav a{
+text-decoration:none;
+    border:none;
+    color:white;
+    background: transparent;
+    border-radius;0;
+    display: block;
+    padding: 11px;
+    transition:0.5s;
+    
+    
+}
+
+nav a:hover{
+
+}

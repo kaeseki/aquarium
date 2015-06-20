@@ -1,0 +1,132 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background-color:aliceblue;
+
+}
+
+.container{
+    width:1200px;
+    margin: auto;
+    
+}
+
+/*レイアウト*/
+
+.main{
+    width: 800px;
+    overflow: hidden;
+    float: left;
+    background-color: navy;
+    padding: 20px;
+    margin: auto
+}
+
+.col-6{
+    width: 800px;
+    overflow: hidden;
+    margin-bottom:20px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    
+
+}
+
+.col-3{
+    width: 290px;
+    padding:5px;
+    float: left;
+        overflow: hidden;
+
+}
+
+.sidebar {
+    width: 300px;
+    padding: 20px;
+    margin-left: 10px;
+    float: left;
+    background-color:navy;
+}
+
+/* 画像・見出し・パラグラフ*/
+
+#key-block img{
+    float: left;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
+/*サイドバー*/
+
+#side-block h2{
+    color:white;
+    padding-left: 70px;
+    font-family: "Adobe Fan Heiti Std";
+}
+
+#side-block img{
+padding-top: 10px;
+}
+
+#side-block p{
+font-size: 15pt;
+    color:white;
+    
+}
+/*カラム*/
+
+#col-block h1{
+color:navy;
+    padding-left:30px;
+    padding-top: 15px;
+}
+
+#col-block p{
+    padding-left: 40px;
+
+}
+/*ナビ*/
+
+nav{
+    overflow: hidden;
+    background-color: royalblue;
+    margin-bottom: 45px;
+    
+}
+
+nav li{
+float:left;
+    list-style-type: none;
+    
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+nav a{
+text-decoration:none;
+    border:none;
+    color:white;
+    background: transparent;
+    border-radius;0;
+    display: block;
+    padding: 11px;
+    transition:0.5s;
+    font-family: "Adobe Fan Heiti Std";
+    font-size: 20pt
+    
+    
+}
+
+nav a:hover{
+    background: #fff;
+    color: #003171;
+
+}
+
